@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/Uni/', // 添加这一行，必须和你的仓库名大小写完全一致
   title: "Uni",
   description: "GameGuide",
   themeConfig: {
