@@ -13,8 +13,8 @@ export default defineConfig({
   themeConfig: {
     // 导航栏汉化
     nav: [
-      { text: 'ホーム', link: '/' },
-      { text: 'こうりゃくぼん', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/markdown-examples' }
     ],
 
     // 侧边栏汉化：你可以根据自己的项目计划修改这里的文字
