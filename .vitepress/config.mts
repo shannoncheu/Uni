@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 必须保持为 '/Uni/' 以匹配你的 GitHub 仓库名
-  base: '/Uni/', 
+  base: '/', 
   
   // 设置为中文，会让“最后更新时间”等插件自动转为中文
   lang: 'zh-CN', 
