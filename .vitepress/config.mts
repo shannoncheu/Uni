@@ -2,22 +2,31 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // 必须保持为 '/Uni/' 以匹配你的 GitHub 仓库名
+  // 必须保持为 '/' 以匹配你的自定义域名 msu.im
   base: '/', 
   
   // 设置为中文，会让“最后更新时间”等插件自动转为中文
   lang: 'zh-CN', 
-  title: "Uni",
+  title: "초보 마을 용사의 신화 만들기",
   description: "한 번 둔 수는 후회하지 않고, 자신의 행동에 책임을 진다.",
 
+  // 新增：这里负责浏览器标签页的图标
+  head: [
+    // 确保你的 40*40 图标文件已放入 public 文件夹并命名为 logo.png
+    ['link', { rel: 'icon', href: '/logo.png' }]
+  ],
+
   themeConfig: {
+    // 新增：导航栏左侧显示的图标
+    logo: '/logo.png',
+
     // 导航栏汉化
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/markdown-examples' }
     ],
 
-    // 侧边栏汉化：你可以根据自己的项目计划修改这里的文字
+    // 侧边栏汉化
     sidebar: [
       {
         text: 'Delta Force',
