@@ -7,30 +7,30 @@ export default defineConfig({
   
   // 设置为中文，会让“最后更新时间”等插件自动转为中文
   lang: 'zh-CN', 
-  title: "Uni 攻略站",
-  description: "游戏攻略与技术分享",
+  title: "Uni",
+  description: "한 번 둔 수는 후회하지 않고, 자신의 행동에 책임을 진다.",
 
   themeConfig: {
     // 导航栏汉化
     nav: [
-      { text: '首页', link: '/' },
-      { text: '开发笔记', link: '/markdown-examples' }
+      { text: 'ホーム', link: '/' },
+      { text: 'こうりゃくぼん', link: '/markdown-examples' }
     ],
 
     // 侧边栏汉化：你可以根据自己的项目计划修改这里的文字
     sidebar: [
       {
-        text: '游戏攻略',
+        text: 'Delta Force',
         items: [
-          { text: '蛋仔派对进阶', link: '/markdown-examples' }, // 对应你感兴趣的蛋仔派对
-          { text: 'Crazy Farm 提醒工具', link: '/api-examples' } // 对应你的 Rust 项目计划
+          { text: '改枪码', link: '/markdown-examples' }, 
+          { text: '点位技巧', link: '/api-examples' } 
         ]
       },
       {
-        text: '技术研究',
+        text: 'League of Legends',
         items: [
-          { text: 'Solana 钱包监控', link: '/solana-guide' }, // 对应你的 Solana 兴趣
-          { text: 'Rust 开发环境', link: '/rust-notes' }    // 对应你的 Rust 学习笔记
+          { text: '海克斯乱斗', link: '/solana-guide' }, 
+          { text: '羁绊选择', link: '/rust-notes' }    
         ]
       }
     ],
