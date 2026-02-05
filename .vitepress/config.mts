@@ -31,8 +31,8 @@ export default defineConfig({
       {
         text: 'Delta Force',
         items: [
-          { text: '改枪码', link: '/markdown-examples' }, 
-          { text: '点位技巧', link: '/api-examples' } 
+          { text: '点位技巧', link: '/markdown-examples' }, 
+          { text: '改枪代码', link: '/delta-force-code' } 
         ]
       },
       {

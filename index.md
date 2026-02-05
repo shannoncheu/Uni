@@ -3,16 +3,16 @@
 layout: home   # sdwqd
 
 hero:
-  name: "Uni"
-  text: "GameGuide"
+  name: "비전문적인"
+  text: "三角洲糊涂指北"
   tagline: My great project tagline
   actions:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Delta Force
+      link: /delta-force-code
 
 features:
   - title: Feature A
